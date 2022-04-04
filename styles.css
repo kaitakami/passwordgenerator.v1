@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@800&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #1F2937;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    width: 100%;
+}
+
+.main-container {
+    width: auto;
+    margin: 8rem 20% 0 20%;
+}
+
+.title {
+    font-family: 'Karla', sans-serif;
+    line-height: 2.4rem;
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+
+.title span {
+    color: #4ADF86;
+}
+
+.subtitle {
+    color: #D5D4D8;
+    font-weight: 500;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 56px;
+}
+
+button {
+    color: white;
+    background-color: #10B981;
+    border: none;
+    padding: 1rem 18px;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+button img {
+    width: 14px;
+}
+
+button:hover {
+    scale: 0.99;
+    transition: 300ms;
+}
+
+hr {
+    color: #2F3E53;
+    margin: 34px 0;
+}
+
+.password-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.password-container {
+    background-color: #273549;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.password-container img {
+    width: 20px;
+    padding: 1px 0 3px;
+}
+
+p {
+    color: #55F991;
+}
+
+@media screen and (max-width: 560px) {
+    .password-area {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}

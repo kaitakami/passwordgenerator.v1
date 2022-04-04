@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator by Kai</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1 class="title">
+            Generate a <br>
+            <span>random password</span>
+        </h1>
+        <h2 class="subtitle">
+            Never use an insecure password again.
+        </h2>
+        <button onclick="passwordGenerator()">
+            <img src="assets/bolt.png" alt="Bolt icon">
+            Generate Passwords
+        </button>
+        <hr>
+        <div class="password-area">
+            <div class="password-container">
+                <p class="copyOne" id="password-one"><img src="/assets/dots.png" alt="Three dots icon"></p>
+            </div>
+            <div class="password-container">
+                <p class="copyTwo" id="password-two">
+                    <img src="/assets/dots.png" alt="Three dots icon">
+                </p>
+            </div>
+            <div class="password-container">
+                <p class="copyThree" id="password-three">
+                    <img src="/assets/dots.png" alt="Three dots icon">
+                </p>
+            </div>
+            <div class="password-container">
+                <p class="copyFour" id="password-four"> 
+                    <img src="/assets/dots.png" alt="Three dots icon">
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
